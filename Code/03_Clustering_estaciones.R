@@ -1,18 +1,14 @@
 library(cluster)
 library(plyr)
 
-# Lectura del archivo de estaciones
-getwd()
-setwd("C:/Users/Alberto/compartido/Master-in-Data-Science/Proyecto/datos")
-getwd()
 # Lectura de todas las estaciones metereorologicas
-stations <- read.csv("ghcnd-stations.csv",sep=";")
+stations <- read.csv("../datos/ghcnd-stations.csv",sep=";")
 stations$ALTITUDE <- NULL
 
 # Lectura del catálogo de estados proporcionado por la NOAA
-cat_states <- read.csv("ghcnd-states.csv",sep=";")
+cat_states <- read.csv("../datos/ghcnd-states.csv",sep=";")
 # Lectura del catálogo de paises proporcionado por la NOAA, modificado para añadir el número de km2 por pais
-cat_countries <- read.csv("ghcnd-countries.csv")
+cat_countries <- read.csv("../datos/ghcnd-countries.csv")
 
 # Agregamos el número de estaciones por cada pais
 stations_by_country <- ddply(stations, .(COUNTRY), c("nrow"))
@@ -185,4 +181,4 @@ for (country in countries_to_reduce$COUNTRY){
 }
     
 # Almacenamos el resultado de aplicar el algoritmo de clustering sobre las estaciones
-write.csv(new_stations,"ghcnd-stations-cluster.csv",sep="^")
+write.csv(new_stations,"../datos/ghcnd-stations-cluster.csv",sep="^")
