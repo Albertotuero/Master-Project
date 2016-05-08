@@ -1,0 +1,219 @@
+COUNTRY,NAME,SUPERFICIE,CONTINENT
+AC,Antigua and Barbuda,443,Central America
+AE,United Arab Emirates,83600,Asia
+AF,Afghanistan,652864,Asia
+AG,Algeria,2381740,Africa
+AJ,Azerbaijan,86600,Asia
+AL,Albania,28748,Europa
+AM,Armenia,29743,Asia
+AO,Angola,1246700,Africa
+AQ,American Samoa [United States],199,Oceania
+AR,Argentina,2780400,South America
+AS,Australia,7692024,Oceania
+AU,Austria,83871,Europa
+AY,Antarctica,14000000,Antarctica
+BA,Bahrain,760,Asia
+BB,Barbados,430,Central America
+BC,Botswana,581730,Africa
+BD,Bermuda [United Kingdom],54,North America
+BE,Belgium,30528,Europa
+BF,Bahamas,13880,North America
+BG,Bangladesh,141998,Asia
+BH,Belize,22966,Central America
+BK,Bosnia and Herzegovina,51197,Europa
+BL,Bolivia,1098581,South America
+BM,Burma,676578,Asia
+BN,Benin,112622,Africa
+BO,Belarus,207600,Europa
+BP,Solomon Islands,28896,Oceania
+BR,Brazil,8514877,South America
+BU,Bulgaria,110879,Europa
+BX,Brunei,5765,Oceania
+BY,Burundi,27830,Africa
+CA,Canada,9984670,North America
+CB,Cambodia,181035,Asia
+CD,Chad,1284000,Africa
+CE,Sri Lanka,65610,Asia
+CF,Congo (Brazzaville),342000,Africa
+CG,Congo (Kinshasa),2344858,Africa
+CH,China,9596961,Asia
+CI,Chile,756102,South America
+CJ,Cayman Islands [United Kingdom],264,Central America
+CK,Cocos (Keeling) Islands [Australia],14,Oceania
+CM,Cameroon,475440,Africa
+CO,Colombia,1141748,South America
+CQ,Northern Mariana Islands [United States],464,Oceania
+CS,Costa Rica,51100,Central America
+CT,Central African Republic,622984,Africa
+CU,Cuba,110860,Central America
+CV,Cape Verde,4033,Africa
+CW,Cook Islands [New Zealand],236,Oceania
+CY,Cyprus,9251,Europa
+DA,Denmark,43094,Europa
+DO,Dominica,751,Central America
+DR,Dominican Republic,48670,Central America
+EC,Ecuador,283561,South America
+EG,Egypt,1001450,Africa
+EI,Ireland,70273,Europa
+EK,Equatorial Guinea,28051,Africa
+EN,Estonia,45228,Europa
+ER,Eritrea,117600,Africa
+ES,El Salvador,21041,Central America
+ET,Ethiopia,1104300,Africa
+EU,Europa Island [France],28,Africa
+EZ,Czech Republic,78867,Europa
+FG,French Guiana [France],91000,South America
+FI,Finland,337030,Europa
+FJ,Fiji,18274,Oceania
+FK,Falkland Islands (Islas Malvinas) [United Kingdom],12173,South America
+FM,Federated States of Micronesia,702,Oceania
+FP,French Polynesia,4167,Oceania
+FR,France,643801,Europa
+FS,French Southern and Antarctic Lands [France],7829,Antarctica
+GA,Gambia,11295,Africa
+GB,Gabon,267667,Africa
+GG,Georgia,69700,Asia
+GH,Ghana,238533,Africa
+GI,Gibraltar [United Kingdom],7,Europa
+GL,Greenland [Denmark],2166086,Europa
+GM,Germany,357022,Europa
+GP,Guadeloupe [France],1706,Central America
+GQ,Guam [United States],544,Oceania
+GR,Greece,131957,Europa
+GT,Guatemala,108889,Central America
+GV,Guinea,245857,Africa
+GY,Guyana,214969,South America
+HO,Honduras,112492,Central America
+HR,Croatia,56594,Europa
+HU,Hungary,93028,Europa
+IC,Iceland,103000,Europa
+ID,Indonesia,1904569,Oceania
+IN,India,3287595,Asia
+IO,British Indian Ocean Territory [United Kingdom],60,Asia
+IR,Iran,1648195,Asia
+IS,Israel,20770,Asia
+IT,Italy,301340,Europa
+IV,Cote D'Ivoire,322462,Africa
+IZ,Iraq,438317,Asia
+JA,Japan,377915,Asia
+JM,Jamaica,10991,Central America
+JN,Jan Mayen [Norway],377,Europa
+JO,Jordan,89342,Asia
+JQ,Johnston Atoll [United States],3,Oceania
+JU,Juan De Nova Island [France],4,Africa
+KE,Kenya,580367,Africa
+KG,Kyrgyzstan,199951,Asia
+KN,North Korea,120538,Asia
+KR,Kiribati,811,Oceania
+KS,South Korea,99720,Asia
+KT,Christmas Island [Australia],135,Oceania
+KU,Kuwait,17818,Asia
+KZ,Kazakhstan,2724900,Asia
+LA,Laos,236800,Asia
+LE,Lebanon,10400,Asia
+LG,Latvia,64589,Europa
+LH,Lithuania,65300,Europa
+LI,Liberia,111369,Africa
+LO,Slovakia,49035,Europa
+LQ,Palmyra Atoll [United States],4,Oceania
+LT,Lesotho,30355,Africa
+LU,Luxembourg,2586,Europa
+LY,Libya,1759540,Africa
+MA,Madagascar,587041,Africa
+MB,Martinique [France],1100,Central America
+MC,Macau S.A.R,38,Asia
+MD,Moldova,33851,Europa
+MF,Mayotte [France],376,Africa
+MG,Mongolia,1564116,Asia
+MI,Malawi,118484,Africa
+MJ,Montenegro,13812,Europa
+MK,Macedonia,25713,Europa
+ML,Mali,1240192,Africa
+MO,Morocco,446550,Africa
+MP,Mauritius,2040,Africa
+MQ,Midway Islands [United States},6,Central America
+MR,Mauritania,1030700,Africa
+MT,Malta,316,Europa
+MU,Oman,309500,Asia
+MV,Maldives,298,Asia
+MX,Mexico,1964375,North America
+MY,Malaysia,329847,Asia
+MZ,Mozambique,799380,Africa
+NC,New Caledonia [France],18575,Oceania
+NE,Niue [New Zealand],260,Oceania
+NF,Norfolk Island [Australia],36,Oceania
+NG,Niger,1267000,Africa
+NH,Vanuatu,12189,Oceania
+NI,Nigeria,923768,Africa
+NL,Netherlands,41865,Europa
+NO,Norway,385156,Europa
+NP,Nepal,147181,Asia
+NS,Suriname,163820,South America
+NT,Netherlands Antilles [Netherlands],960,Central America
+NU,Nicaragua,130370,Central America
+NZ,New Zealand,267667,Oceania
+PA,Paraguay,406752,South America
+PC,Pitcairn Islands [United Kingdom],47,Oceania
+PE,Peru,1285216,South America
+PK,Pakistan,796095,Asia
+PL,Poland,312685,Europa
+PM,Panama,75420,Central America
+PO,Portugal,92090,Europa
+PP,Papua New Guinea,462840,Oceania
+PS,Palau,459,Oceania
+PU,Guinea-Bissau,36125,Africa
+QA,Qatar,11586,Africa
+RE,Reunion [France],2517,Africa
+RI,Serbia,77474,Europa
+RM,Marshall Islands,181,Oceania
+RO,Romania,238391,Europa
+RP,Philippines,300000,Oceania
+RQ,Puerto Rico [United States],8870,Central America
+RS,Russia,17125246,Asia
+RW,Rwanda,26338,Africa
+SA,Saudi Arabia,2149690,Asia
+SB,Saint Pierre and Miquelon [France],242,North America
+SE,Seychelles,455,Africa
+SF,South Africa,1219912,Africa
+SG,Senegal,196722,Africa
+SH,Saint Helena [United Kingdom],308,Africa
+SI,Slovenia,20273,Europa
+SL,Sierra Leone,71740,Africa
+SN,Singapore,697,Asia
+SP,Spain,505370,Europa
+ST,Saint Lucia,616,Central America
+SU,Sudan,1861484,Africa
+SV,Svalbard [Norway],62045,Europa
+SW,Sweden,450295,Europa
+SX,South Georgia and the South Sandwich Islands [United Kingdom],3903,South America
+SY,Syria,185180,Asia
+SZ,Switzerland,41277,Europa
+TD,Trinidad and Tobago,5128,Central America
+TE,Tromelin Island [France],1,Africa
+TH,Thailand,513120,Asia
+TI,Tajikistan,143100,Asia
+TL,Tokelau [New Zealand],12,Oceania
+TN,Tonga,747,Oceania
+TO,Togo,56785,Africa
+TS,Tunisia,163610,Africa
+TU,Turkey,783562,Asia
+TV,Tuvalu,26,Oceania
+TX,Turkmenistan,488100,Asia
+TZ,Tanzania,947300,Africa
+UG,Uganda,241038,Africa
+UK,United Kingdom,243610,Europa
+UP,Ukraine,603550,Europa
+US,United States,9371174,North America
+UV,Burkina Faso,274200,Africa
+UY,Uruguay,176215,South America
+UZ,Uzbekistan,447400,Asia
+VE,Venezuela,916445,South America
+VM,Vietnam,331210,Asia
+VQ,Virgin Islands [United States],346,Central America
+WA,Namibia,824292,Africa
+WF,Wallis and Futuna [France],142,Oceania
+WI,Western Sahara,26600,Africa
+WQ,Wake Island [United States],7,Oceania
+WZ,Swaziland,17364,Africa
+ZA,Zambia,752618,Africa
+ZI,Zimbabwe,390757,Africa
