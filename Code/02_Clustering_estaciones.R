@@ -1,17 +1,20 @@
 library(cluster)
 library(plyr)
 
+setwd("C:/Users/Alberto/compartido/Master-in-Data-Science/Proyecto/Master-Project/Datos")
 # Lectura de todas las estaciones metereorologicas
-stations <- read.csv("../datos/ghcnd-stations.csv",sep=";")
+stations <- read.csv("ghcnd-stations.csv",sep=";")
 stations$ALTITUDE <- NULL
 
 # Lectura del catálogo de estados proporcionado por la NOAA
-cat_states <- read.csv("../datos/ghcnd-states.csv",sep=";")
+cat_states <- read.csv("ghcnd-states.csv",sep=";")
 # Lectura del catálogo de paises proporcionado por la NOAA, modificado para añadir el número de km2 por pais
-cat_countries <- read.csv("../datos/ghcnd-countries.csv")
+cat_countries <- read.csv("ghcnd-countries.csv")
 
 # Agregamos el número de estaciones por cada pais
 stations_by_country <- ddply(stations, .(COUNTRY), c("nrow"))
+
+stations_by_country
 colnames(stations_by_country) <- c("COUNTRY","STATIONS")
 
 # A la tabla de paises, se añade el número de estaciones
