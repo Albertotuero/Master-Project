@@ -802,7 +802,7 @@ hljs.initHighlightingOnLoad();
 <li>¿Actualmente estamos en un punto máximo de las mismas?</li>
 </ul>
 
-<p>Todo el material está disponible en <a href="https://github.com/Albertotuero/Master-Project">https://github.com/Albertotuero/Master-Project</a></p>
+<p>Todo el material está disponible en <a href="https://github.com/Albertotuero/Master-Project">https://github.com/Albertotuero/Master-Project</a>.  Los ficheros de código están organizados de forma ordenada, según se ha avanzado en el desarrollo del proyecto</p>
 
 <p>Se ha generado un cuadro de mando en Tableau con la información meteorológica disponible de igual modo en el repositorio de GitHub</p>
 
@@ -810,14 +810,49 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Origen de datos</h3>
+<h3>Origen de datos (I)</h3>
 <div class="slideContent" >
 <p>Para dar solución a las cuestiones anteriores se va a utilizar la información histórica de la NOAA </p>
 
+<p>Temperaturas Mundiales (<a href="ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/):">ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/):</a> Un archivo .gz por año, que contiene observaciones diarias.  Cada línea de cada archivo contiene:
+    - Identificación de la estación de observación
+    - Dia en formato YYYYMMDD a la que hace referencia la observación
+    - Identificador de la medida, consultar del archivo <a href="ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt">ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt</a> que tiene la descripción de todas las medidas
+    - Valor correspondiente a la medida
+    - 3 Flags que indican Valor de la medida en el primer día del mes, calidad del dato y fuente del dato</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Origen de datos (II)</h3>
+<div class="slideContent" >
+<p>Información de los niveles de CO<sup>2</sup> (<a href="ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt">ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt</a>).  Un único archivo que contiene:
+    - Año de observación
+    - Mes de observación
+    - Día de observación
+    - Fecha en formato decimal
+    - Medida de CO<sup>2</sup>
+    - Días desde la última observación
+    - Valor del indicador hace 1 y 10 años
+    - Incremento del indicador desde el año 1,800</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Origen de datos (III)</h3>
+<div class="slideContent" >
+<p>Información de radiación solar (<a href="ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/">ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/</a>).  Hay un archivo por estación de observación y mes.  Datos con periodicidad de 3 minutos (con anterioridad a 1998) y periodicidad de 1 minuto (con posterioridad a 1998).  Cada archivo contiene:</p>
+
 <ul>
-<li>Temperaturas Mundiales (<a href="ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/">ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/</a>)</li>
-<li>Información de los niveles de CO<sup>2</sup> (<a href="ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt">ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt</a>)</li>
-<li>Información de radiación solar (<a href="ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/">ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/</a>)</li>
+<li>Año, Mes, Día, Hora y Minuto de observación</li>
+<li>Radiación solar directa a nivel de suelo</li>
+<li>Radiación solar dispersada</li>
+<li>Radiación total incidente</li>
+<li>Radicación de onda larga</li>
+<li>Upward solar irradiance</li>
+<li>Upward longwave irradiance</li>
 </ul>
 
 </div>

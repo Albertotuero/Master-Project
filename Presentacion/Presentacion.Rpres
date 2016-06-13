@@ -12,20 +12,47 @@ Como proyecto final del I Master en Data Science, nos planteamos la siguientes p
 - ¿Las temperaturas están sujetas a un comportamiento periódico?
 - ¿Actualmente estamos en un punto máximo de las mismas?
  
-Todo el material está disponible en https://github.com/Albertotuero/Master-Project
+Todo el material está disponible en https://github.com/Albertotuero/Master-Project.  Los ficheros de código están organizados de forma ordenada, según se ha avanzado en el desarrollo del proyecto
 
 Se ha generado un cuadro de mando en Tableau con la información meteorológica disponible de igual modo en el repositorio de GitHub
 
-Origen de datos
+Origen de datos (I)
 ========================================================
 
 Para dar solución a las cuestiones anteriores se va a utilizar la información histórica de la NOAA 
 
- - Temperaturas Mundiales (ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/)
- - Información de los niveles de CO^2 (ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt)
- - Información de radiación solar (ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/)
+Temperaturas Mundiales (ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/): Un archivo .gz por año, que contiene observaciones diarias.  Cada línea de cada archivo contiene:
+    - Identificación de la estación de observación
+    - Dia en formato YYYYMMDD a la que hace referencia la observación
+    - Identificador de la medida, consultar del archivo ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt que tiene la descripción de todas las medidas
+    - Valor correspondiente a la medida
+    - 3 Flags que indican Valor de la medida en el primer día del mes, calidad del dato y fuente del dato
 
+Origen de datos (II)
+========================================================
+    
+Información de los niveles de CO^2 (ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt).  Un único archivo que contiene:
+    - Año de observación
+    - Mes de observación
+    - Día de observación
+    - Fecha en formato decimal
+    - Medida de CO^2
+    - Días desde la última observación
+    - Valor del indicador hace 1 y 10 años
+    - Incremento del indicador desde el año 1,800
 
+Origen de datos (III)
+========================================================
+    
+Información de radiación solar (ftp://aftp.cmdl.noaa.gov/data/radiation/baseline/).  Hay un archivo por estación de observación y mes.  Datos con periodicidad de 3 minutos (con anterioridad a 1998) y periodicidad de 1 minuto (con posterioridad a 1998).  Cada archivo contiene:
+  - Año, Mes, Día, Hora y Minuto de observación
+  - Radiación solar directa a nivel de suelo
+  - Radiación solar dispersada
+  - Radiación total incidente
+  - Radicación de onda larga
+  - Upward solar irradiance
+  - Upward longwave irradiance
+    
 Análisis Puntos de observación (I)
 ========================================================
 
