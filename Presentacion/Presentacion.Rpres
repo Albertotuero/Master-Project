@@ -12,6 +12,9 @@ Como proyecto final del I Master en Data Science, nos planteamos la siguientes p
 - ¿Las temperaturas están sujetas a un comportamiento periódico?
 - ¿Actualmente estamos en un punto máximo de las mismas?
  
+Todo el material está disponible en https://github.com/Albertotuero/Master-Project
+
+Se ha generado un cuadro de mando en Tableau con la información meteorológica disponible de igual modo en el repositorio de GitHub
 
 Origen de datos
 ========================================================
